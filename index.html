@@ -38,13 +38,14 @@
             overflow: hidden;
             margin-bottom: 20px;
         }
-        .video-container video {
+        .video-container iframe {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             border-radius: 5px;
+            border: none;
         }
         .description {
             margin-top: 30px;
@@ -94,11 +95,7 @@
         <h1>Skip Visualization Demo</h1>
         
         <div class="video-container">
-            <video controls>
-                <source src="skip_demo_visualization_video" type="video/quicktime">
-                <source src="https://github.com/MemberJunction/SkipDemoOutput/raw/refs/heads/main/skip_demo_visualization_video" type="video/quicktime">
-                Your browser does not support the video tag.
-            </video>
+            <iframe src="https://player.vimeo.com/video/1085512659?h=b2b8849506" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
         
         <div class="description">
@@ -108,11 +105,11 @@
         
         <div class="buttons">
             <a href="demo_1.html" class="btn">View HTML Demo</a>
-            <a href="https://github.com/MemberJunction/SkipDemoOutput/raw/refs/heads/main/skip_demo_visualization_video" download class="btn">Download Video</a>
+            <a href="https://vimeo.com/1085512659/b2b8849506?share=copy" target="_blank" class="btn">View on Vimeo</a>
         </div>
         
         <div class="source-link">
-            <p>Video source: <a href="https://github.com/MemberJunction/SkipDemoOutput/raw/refs/heads/main/skip_demo_visualization_video" target="_blank">GitHub Repository</a></p>
+            <p>Source: <a href="https://github.com/MemberJunction/SkipDemoOutput" target="_blank">GitHub Repository</a></p>
         </div>
     </div>
 </body>

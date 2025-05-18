@@ -20,6 +20,8 @@ A fully interactive CRM data explorer interface that demonstrates:
 - Detail views with related records
 - Foreign key navigation between related entities
 
+[Watch Demo Video on Vimeo](https://vimeo.com/1085512659/b2b8849506?share=copy)
+
 **Technical features:**
 - Custom CSS with responsive design
 - Font Awesome integration for icons
